@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>  
+        function myfunction() {  
+        alert("You are about to visit a website about arduino, it will show what is in the arduino kit that we used") 
+        window.location.href = "http://127.0.0.1:5500/CIF.html";
+        }  
+      </script> 
+    <script>  
+        function myotherfunction() {  
+        alert("You are about to visit a website about turtle, it will show all three fireworks.") 
+        window.location.href = "http://127.0.0.1:5500/turtlefireworks.html";
+        }  
+      </script>   \
+    <script>  
+        function mymazefunction() {  
+        alert("You are about to visit a website about pygame, it will show the code of the game") 
+        window.location.href = "http://127.0.0.1:5500/pygame.html";
+        }  
+      </script>   
+    <script>  
+        function myguessingfunction() {  
+        alert("You are about to visit a website about Guessing game, it will show the code of the game") 
+        window.location.href = "http://127.0.0.1:5500/Guessinggame.html";
+        }  
+      </script>   
+    <script>  
+        function myTBAGfunction() {  
+        alert("You are about to visit a website about the Tbag game, it will show the code of the game") 
+        window.location.href = "http://127.0.0.1:5500/TBAG.html";
+        }  
+      </script>   
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> 😊 My Projects</title>
+   <style>
+       body {
+           background-color: rgb(247, 249, 253);
+           font-family: Arial, sans-serif;
+           color: rgb(50, 50, 50);
+           margin: 0;
+           padding: 0;
+       }
+       header {
+           background-color: rgb(210, 203, 236);
+           color: white;
+           padding: 10px 0;
+           text-align: center;
+       }
+       section {
+           margin: 20px;
+           padding: 20px;
+           background-color: white;
+           border-radius: 8px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+       h1, h2 {
+           color: rgba(57, 10, 230, 0.8);
+       }
+       p {
+           color: rgb(108, 95, 170);
+           margin-bottom: 20px;
+       }
+       p.p2 {
+           color: rgb(50, 50, 50);
+           font-size: 16px;
+           line-height: 1.6;
+       }
+       a {
+           color: rgb(197, 190, 226);
+       }
+       nav {
+           text-align: center;
+           margin-bottom: 20px;
+       }
+       nav a {
+           margin: 0 20px;
+           color: rgba(57, 10, 230, 0.8);
+       }
+       svg {
+           display: block;
+           width: 500px;
+           height: 220px;
+       }
+       img {
+           max-width: 100%;
+           height: auto;
+           border-radius: 8px;
+           margin-top: 10px;
+       }
+   </style>
+</head>
+<body>
+
+<header>
+   <h1> 😊 My Projects</h1>
+   <nav>
+       <a href="#guessing-game">Guessing Game</a>
+       <a href="#turtle-fireworks">Turtle Fireworks</a>
+       <a href="#arduino">Arduino</a>
+       <a href="#tbag">TBAG</a>
+       <a href="#pygame">Pygame</a>
+   </nav>
+</header>
+
+<section>
+    <p class="p2">Hello! Welcome to my first web! In this web, I will show all the projects that I have accomplished in the junior course. I have tried my best for all of the projects, even though some are not finished.</p>
+    <img src="Capture.PNG" alt="Capture" />
+</section>
+
+<svg width="500" height="200">
+    <!-- Guessing Game -->
+    <a href="#guessing-game">
+        <circle cx="50" cy="100" r="50" stroke="orange" stroke-width="3" fill="yellow"/>
+        <text x="25" y="105" fill="green">Guessing</text>
+    </a>
+
+    <!-- Turtle Fireworks -->
+    <a href="#turtle-fireworks">
+        <circle cx="150" cy="100" r="50" stroke="green" stroke-width="3" fill="blue"/>
+        <text x="115" y="105" fill="white">Fireworks</text>
+    </a>
+
+    <!-- Arduino -->
+    <a href="#arduino">
+        <circle cx="250" cy="100" r="50" stroke="orange" stroke-width="3" fill="yellow"/>
+        <text x="225" y="105" fill="green">Arduino</text>
+    </a>
+
+    <!-- TBAG -->
+    <a href="#tbag">
+        <circle cx="350" cy="100" r="50" stroke="green" stroke-width="3" fill="blue"/>
+        <text x="330" y="105" fill="white">TBAG</text>
+    </a>
+
+    <!-- Pygame -->
+    <a href="#pygame">
+        <circle cx="450" cy="100" r="50" stroke="orange" stroke-width="3" fill="yellow"/>
+        <text x="425" y="105" fill="green">Pygame</text>
+    </a>
+</svg>
+
+
+<section id="guessing-game">
+    <h2>Guessing Game</h2>
+    <p class="p2"><strong>Guessing Game.</strong> This was a guessing game. It's about a treasure box named Clare. At the start of the game, Clare greets you. You must guess the correct number to open the chest. You get to choose the limit of the number. When you guess an incorrect number, Clare should give you a hint. When you guess the number correctly you win, and you get the treasure, which is the number you guessed correctly. This game is finished. Made using Python.</p>
+    <img src="guessing game.png" alt="guessing game" onclick="myguessingfunction()"/>
+</section>
+
+<section id="turtle-fireworks">
+    <h2>Turtle Fireworks</h2>
+    <p class="p2"><strong>Turtle Fireworks.</strong> This was a project that used Python Turtle to make fireworks. First, you draw the firework box. Then, the turtle changes into a pellet shape. The pellet/turtle flies into the sky and explodes by increasing its size. Finally, other turtles appear and draw the fireworks. This project was one of my favorites because it was lots of fun making the fireworks. The next class, we got to see our classmates' fireworks. This project is finished. Made using Python. It used python turtle. If you want to see the firework code, and the turtle making the firework, click on the image.</p>
+    <img src="firework.png" alt="firework" onclick="myotherfunction()"/>
+</section>
+
+<section id="arduino">
+    <h2>Arduino</h2>
+    <p class="p2"><strong>Social Distance Detector.</strong> This social distance detector has an OLED that displays distance (but mine sadly broke), an ultrasonic distance sensor, three LEDs and resistors, a breadboard, many wires, and an Arduino UNO. If the distance is smaller than 10 centimeters, the red LED will light up. If it is between 10cm and 20cm, then the yellow LED will light up. Else, the green LED will light up. This was coded using Arduino IDE. The project is mostly finished, but I still can’t manage to get accurate measurements. If you want to see what is in the arduino kit that we used, click on the image</p>
+    <img src="ardiuno.png" alt="Arduino project" onclick="myfunction()" />
+</section>
+
+<section id="tbag">
+    <h2>TBAG</h2>
+    <p class="p2"><strong>TBAG.</strong> This is a themed basic adventure game. It's an anatomy quiz that includes bonus questions. You gain XP if you answer correctly and lose XP if you don’t. When you run out of questions or XP, you lose. This game is finished. Made using Python. It uses random (a python librairy), lists, and many other functions</p>
+    <img src="TBAG.png" alt="TBAG" onclick="myTBAGfunction()"/>
+</section>
+
+<section id="pygame">
+    <h2>Pycharm Maze Game</h2>
+    <p class="p2"><strong>Pycharm Maze Game.</strong> This game is a maze. It had obstacles that could slow the player down, speed them up, make them bounce, and teleport them back to the start. I missed some of the classes, so my Pycharm game is behind. This game wasn’t finished 🙁. Made using Python, pygame. I missed the class and didn’t have time to watch the recording, because I had swimming class and science camp. Even though I didn't finish, it was one of my favorites, because I loved creating the different obstacles</p>
+    <img src="pycharm.png" alt="Pycharm Maze Game" onlick="mymazefunction()"/>
+</section>
+
+<section id="websites">
+    <h2>Websites!!!</h2>
+    <p class="p2"><strong>Websites!!!</strong> We are working on this project right now. So far, we’ve learned some HTML, CSS, Javascript, and SVG. HTML is a coding language that is used to make many web pages. CSS is a function that allows you to change font, style, size, and more. Javascript is used to tell the user something. We used Javascript to make a function when you click on something. SVG stands for Scalable Vector Graphics. It is used to draw things in HTML. This project is the one we are working on.</p>
+</section>
+</body>
+</html>
